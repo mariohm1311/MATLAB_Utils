@@ -43,4 +43,3 @@ function [z] = riemann_zeta(s,iter)
     
     z = -(1./(1-2.^(1-s))) .* (sum1 + (1./(2.^iter)).*sum2);
 end
-
